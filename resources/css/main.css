@@ -1,1 +1,32 @@
 /* Enter your CSS here */
+
+.bg-banner {
+	background: #000 url("https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-pelletgrill2.jpg");
+	background-size: cover;
+}
+
+.btn-red {
+	background: #c74023 !important;
+	color: #fff !important;
+	width: 100%;
+	display: block;
+	font-size: 20px;
+	padding: 20px 10px 20px 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 7px;
+	border-bottom: solid #a93218 10px;
+	margin-bottom: 10px!important;
+}
+
+.btn-red:hover {
+	margin-top: 5px!important;
+	background: #d7593e !important;
+	text-decoration: none;
+	border-bottom: solid #a93218 5px;
+-webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+}
